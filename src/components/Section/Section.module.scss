@@ -1,0 +1,19 @@
+@import "assets/scss/media-q";
+
+//styles
+.section {
+	padding: 40px 0;
+}
+
+.section___pLg {
+	padding: 50px 0;
+
+	@media (min-width: $tablet-width--sm) {
+		padding: 100px 0;
+	}
+}
+
+.section_content {
+	display: flex;
+	flex-wrap: wrap;
+}
